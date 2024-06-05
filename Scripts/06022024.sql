@@ -17,7 +17,7 @@ CREATE TABLE Marca (
 ALTER TABLE Marca
 ADD Constraint PK_Marca PRIMARY KEY (MarcaId);
 
---Tabla de Producto
+--Tabla de Producto   
 CREATE TABLE Producto (
 	ProductoId int NOT NULL IDENTITY,
 	NombreProducto nvarchar(120) NOT NULL,
